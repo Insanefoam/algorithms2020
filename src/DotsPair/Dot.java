@@ -13,9 +13,4 @@ public class Dot {
     public String toString() {
         return "(" + x + ", " + y + ")";
     }
-
-/*    @Override
-    public int compareTo(Dot dot1) {
-        return (int) ((this.x - dot1.x) * 100);
-    }*/
 }

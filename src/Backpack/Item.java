@@ -1,14 +1,12 @@
-package backpack;
+package Backpack;
 
 public class Item implements Comparable<Item> {
     public int weight;
     public int cost;
-    public boolean fired;
 
     public Item(int weight, int cost) {
         this.weight = weight;
         this.cost = cost;
-        this.fired = false;
     }
 
     @Override
